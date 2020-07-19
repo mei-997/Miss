@@ -1,0 +1,253 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: greenyellow;
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* 头部开始 */
+
+.top {
+	width: 100%;
+	height: 650px;
+	background: url(../img/intro-bg.jpg) no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.top_se {
+	padding: 253px 0;
+	background: -moz-linear-gradient(left, rgba(107, 77, 168, 0.85) 0%, rgba(73, 119, 194, 0.85) 100%);
+	background: -webkit-linear-gradient(left, rgba(107, 77, 168, 0.85) 0%, rgba(73, 119, 194, 0.85) 100%);
+	background: linear-gradient(to right, rgba(107, 77, 168, 0.85) 0%, rgba(73, 119, 194, 0.85) 100%);
+}
+
+.p_1 {
+	font-size: 2.5rem;
+}
+
+.top_center {
+	position: relative;
+	top: 50%;
+}
+
+.top_geng {
+	border: 2px solid #FFFFFF;
+	height: 50px;
+	line-height: 50px;
+	width: 150px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.top_geng:hover {
+	background-color: #000000;
+	border: 2px solid #000000;
+}
+
+/* 导航条 */
+
+.navbar-default {
+	background-color: #191919;
+	border-color: #333232;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.guan {
+	padding: 100px 0;
+	background: #f6f6f6;
+}
+
+.guan_1 {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.with {
+	text-align: center;
+}
+
+.with>span {
+	line-height: 20px;
+	margin: 0;
+	color: #444;
+	font-weight: 400;
+	margin-bottom: 30px;
+	font-size: 34px;
+	text-transform: uppercase;
+}
+
+.with_img {
+	width: 100%;
+	height: auto;
+}
+
+hr {
+	height: 4px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: rgb(107, 77, 168);
+	background: -moz-linear-gradient(left, rgba(107, 77, 168, 1) 0%, rgba(73, 119, 194, 1) 100%);
+	background: -webkit-linear-gradient(left, rgba(107, 77, 168, 1) 0%, rgba(73, 119, 194, 1) 100%);
+	background: linear-gradient(to right, rgba(107, 77, 168, 1) 0%, rgba(73, 119, 194, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1);
+	margin: 24px auto;
+	border: 0;
+}
+
+.guan_2 {
+	width: 150px;
+	height: 50px;
+	border: 2px solid #526cbb;
+	text-align: center;
+	line-height: 50px;
+}
+
+.guan_2:hover {
+	color: #FFFFFF;
+	background-color: #526cbb;
+	border: 2px solid #526cbb;
+}
+
+.wwp {
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+/* //技能 */
+
+.jineng {
+	padding: 100px 0;
+	background: rgb(107, 77, 168);
+	background: -moz-linear-gradient(left, rgba(107, 77, 168, 1) 0%, rgba(73, 119, 194, 1) 100%);
+	background: -webkit-linear-gradient(left, rgba(107, 77, 168, 1) 0%, rgba(73, 119, 194, 1) 100%);
+	background: linear-gradient(to right, rgba(107, 77, 168, 1) 0%, rgba(73, 119, 194, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1);
+}
+
+.hr_1 {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.jineng_center {
+	width: 50%;
+	margin: 76px auto;
+}
+
+.huan_1 {
+	width: 140px;
+	height: 140px;
+	margin: 0px 48px;
+	color: #FFFFFF;
+}
+
+/* 作品 */
+
+.zuopin_lei {
+	width: 40%;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+
+.zuopin_lei_1 {
+	margin: 0px 18px;
+	cursor: pointer;
+}
+
+.zuopin_shi img {
+	width: 200px;
+	height: 0 auto;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+
+.zuopin_shi {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.zuopin_shi img:hover {
+	transform: scale(1.1);
+}
+
+.img_text {
+	position: relative;
+	top: 20px;
+	/* display: none; */
+}
+
+.img_text:hover {
+	display: none;
+}
+
+/* 统计 */
+
+.tongji {
+	padding: 80px 0;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.tongji span {
+	font-size: 52px;
+	font-weight: 600;
+	display: block;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 0;
+	margin: 0;
+}
+
+/* 感言 */
+
+.gan_center {
+	padding: 80px 0;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* 信息 */
+
+.xinxi {
+	width: 30%;
+	margin: 0 auto;
+}
+
+input {
+	border-style: 0;
+}
+
+.lianxi_1 {
+	width: 23%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* 尾巴 */
+.weiba {
+	background-color: #080808;
+	padding: 35px 0;
+	color: #7a7a7a;
+}
+
+.weiba_1 {
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+}
