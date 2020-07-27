@@ -1,0 +1,11 @@
+/* pages/logo/logo.wxss */
+.img{
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.vi_img{
+  width: 100%;
+  height: 100%;
+}

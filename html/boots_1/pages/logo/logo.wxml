@@ -1,0 +1,5 @@
+<!--pages/logo/logo.wxml-->
+<view class="img">
+  <image src="../img/a1.png" class="vi_img"></image>
+</view>
+  

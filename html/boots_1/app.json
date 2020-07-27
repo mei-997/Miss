@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logo/logo",
+    "pages/goods/goods"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fbe973",
+    "navigationBarTitleText": "平哥带你飞",
+    "navigationBarTextStyle":"black"
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

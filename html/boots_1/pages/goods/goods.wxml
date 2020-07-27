@@ -1,0 +1,31 @@
+<view class="txt">
+	<text>你已经获胜<text class="cishu">{{cishu}}</text>次</text>
+</view>
+<view class="top">
+	<view class="div_1">
+	<image src="{{aydis}}" class="img"></image>
+	</view>
+	<view class="div_2">
+    <text class="div_text">{{text_wz}}</text>
+    </view>
+	<view class="div_1">
+		<image src="{{src_img[aryle]}}" class="img"></image>
+	</view>
+</view>
+<view class="centen">
+	<view class="chu">出手吧!!!</view>
+	<view class="dibu top" bindtap="chuquan">
+		<view class="div_1 yuan">
+      <image src="../image/a_1.png" class="img" data-imgid="0"></image>
+		</view>
+		<view class="div_1 yuan">
+			<image src="../image/a_2.png" class="img" data-imgid="1"></image>
+		</view>
+		<view class="div_1 yuan">
+			<image src="../image/a_3.png" class="img" data-imgid="2"></image>
+		</view>
+	</view>
+	<view>
+    <button  class="but" bindtap="zailai">再来一次</button>
+  </view>
+</view>

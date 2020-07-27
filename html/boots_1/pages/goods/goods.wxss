@@ -1,0 +1,72 @@
+/* pages/goods/goods.wxss */
+page{
+  background-color:#FAE738;
+}
+
+.top{
+  display:flex;
+  flex-direction:row ;
+}
+
+.txt{
+  text-align: center;
+  margin-top: 80rpx;
+}
+.div_1{
+  text-align: center;
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  margin-left: 32px;
+  border: 1px solid #fff;
+}
+
+.div_2{
+	 text-align: center;
+	margin-top: 20px;
+	width: 80px;
+	height: 80px;
+	align-items: center;
+	margin-left: 32px;
+}
+
+.div_text{
+  position: relative;
+  top: 20px;
+  color: red;
+}
+
+.but{
+  width: 250rpx;
+  margin-top: 20px;
+}
+
+.chu{
+  text-align: center;
+  margin-top: 25px;
+  line-height: 40px;
+}
+
+.centen{
+	width: 88%;
+	height: 235px;
+	margin: 0 auto;
+  background-color: #FBE973;
+  border-radius:20px ;
+}
+
+.yuan{
+	border-radius:50px;
+	margin-top: 20rpx;
+	margin-left:43rpx;
+}
+
+.img{
+  width: 70%;
+  height: 70%;
+  margin-top: 20rpx;
+}
+.cishu{
+ color: red;
+}
