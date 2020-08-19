@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+		<script src="js/vue.min.js"></script>
+	</head>
+	<body>
+		<head>
+			<div class="centent">
+				<h2>图书管理系统</h2>
+			</div>
+		</head>
+		<tbody>
+			<div class="centent" id="app">
+				<div class="flex">
+					<div>
+						<h4>编号：<input type="text" v-model.lazy="pian"/></h4>
+					</div>
+					<div>
+						<h4>书籍名称：<input type="text"  v-model.lazy="username"/></h4>
+					</div>
+					<div>
+						<button  v-on:click="tijiao" :disabled="disabled" >确定</button>
+					</div>
+				</div>
+				<div class="flex biao">
+					<!-- <div>序号</div> -->
+					<div>编号</div>
+					<div>名称</div>
+					<div>时间</div>
+					<div>操作</div>
+				</div>
+				<div class="flex biao" v-for="item in libray">
+					<div>{{ item.message }}</div>
+					<div>{{ item.username }}</div>
+					<div v-model="time">{{ item.time | date}}</div>
+					<div>
+						<button type="button" v-on:click="xiugai(item.message)">修改</button>
+						<button type="button" v-on:click="sanzhu(item.message,item.username)">删除</button>
+					</div>
+				</div>
+				<div>
+					<h4>
+						当前还剩余{{cishu}}本书籍！！
+					</h4>
+				</div>
+			</div>
+		</tbody>
+	</body>
+	<script src="js/js.js"></script>
+</html>

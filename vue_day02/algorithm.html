@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="app">
+			<span>请输入第一个值</span><br />
+			<input type="text" name="" id="one" v-model.number="mun1" />{{mun1}}<br />
+			<span>请输入第二个值</span><br />
+			<input type="text" name="" id="tow" v-model.number="mun2" />{{mun2}}<br />
+			算法：
+			<select v-model="selected">
+				<option v-for="option in options" v-bind:value="option.value">
+					{{ option.text }}
+				</option>
+			</select>
+			<!-- <span>Selected: {{ selected }}</span> -->
+			<button type="button" v-on:click="dianji">等于</button>结果为：{{zhi}}
+			<p>{{mun1}}{{selected}}{{mun2}}={{zhi}}</p>
+		</div>
+	</body>
+	<link rel="stylesheet" type="text/css" href="css/css.css" />
+	<script src="js/vue.min.js"></script>
+	<script>
+		var app = new Vue({
+			el: '#app',
+			data: {
+				mun1: 1,
+				mun2: 1,
+				zhi: "",
+				selected: '+', //select选中的值
+				options: [{
+						text: '+',
+						value: '+'
+					},
+					{
+						text: '-',
+						value: '-'
+					},
+					{
+						text: '*',
+						value: '*'
+					},
+					{
+						text: '/',
+						value: '/'
+					}
+				]
+			},
+			methods: {
+				dianji: function() {
+					this.zhi = this.mun1 this.selected this.mun2
+				}
+
+			}
+		})
+	</script>
+</html>
