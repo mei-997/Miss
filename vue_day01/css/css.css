@@ -1,0 +1,39 @@
+[v-cloak] {
+	display: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* flex布局 */
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.biao>div {
+	flex: 1;
+	text-align: left;
+}
+
+/* 页面居中 */
+
+.centent {
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 1rem;
+}
+
+/* 添加 */
+input {
+	width: 162px;
+}
+
+/* 线条位置 */
+hr {
+	margin-top: 10px;
+}
